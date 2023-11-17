@@ -1,15 +1,13 @@
 package senac.java.Domain;
-
 import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Estoque {
     int id;
-    String name = "";
-    String factory = "";
-    String quantity = "";
+    public String name = "";
+    public String factory = "";
+    public String quantity = "";
 
     public Estoque(){
 

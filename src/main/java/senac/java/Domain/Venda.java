@@ -11,7 +11,7 @@ public class Venda {
     public String products = "";
     public String finishedSale = "";
     public String discount = "";
-    String Sale = "";
+    public String Sale = "";
 
     public String filters = "";
 

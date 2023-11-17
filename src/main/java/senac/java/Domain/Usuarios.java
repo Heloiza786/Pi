@@ -1,16 +1,15 @@
 package senac.java.Domain;
 
 import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Usuarios {
     int id;
-    String name = "";
-    String lastName = "";
-    String cpf = "";
-    String email = "";
+    public String name = "";
+    public String lastName = "";
+    public String cpf = "";
+    public String email = "";
 
     public Usuarios() {
 
@@ -62,7 +61,7 @@ public class Usuarios {
 
         JSONObject json = new JSONObject();
         json.put("name", name);
-        json.put("last_name", lastName);
+        json.put("lastName", lastName);
         json.put("cpf", cpf);
         json.put("email", email);
 
@@ -79,7 +78,7 @@ public class Usuarios {
 
 
                 jsonObjectPut.put("name", venda.getUser());
-                jsonObjectPut.put("last_name", venda.getProducts());
+                jsonObjectPut.put("lastName", venda.getProducts());
                 jsonObjectPut.put("cpf", venda.getFinishedSales());
                 jsonObjectPut.put("email", venda.getDiscount());
 
